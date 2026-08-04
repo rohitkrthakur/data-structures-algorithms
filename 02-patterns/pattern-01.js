@@ -24,13 +24,23 @@
 
 
 
-for (let row =0; row<4; row++){
-     let pattern = "";
+// for (let row =0; row<4; row++){
+//      let pattern = "";
 
-       for(let col= 0; col<4; col++){
-        pattern += "*"
-       }
-       console.log(pattern)
+//        for(let col= 0; col<4; col++){
+//         pattern += "*"
+//        }
+//        console.log(pattern)
+// }
+
+for(let i=0; i<4; i++){
+    let pattern = "";
+     for ( let j=0; j<4; j++){
+        pattern += "*";
+
+
+     }
+     console.log(pattern)
 }
 
 

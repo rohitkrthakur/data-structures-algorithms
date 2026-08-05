@@ -111,3 +111,20 @@
 //       console.log(pattern)    
 // }
 // }
+
+// 1
+// 23
+// 456
+// 78910
+let num = 1;
+
+for (let i = 0; i < 4; i++) {
+    let pattern = "";
+
+    for (let j = 0; j < i + 1; j++) {
+        pattern += num;
+        num++;
+    }
+
+    console.log(pattern);
+}

@@ -21,12 +21,14 @@
 // 11111
 
 
-for(let i= 0;i<5;i++){
-  let pattern = "";
-  for(let j= 0; j<i+1;j++){
-    pattern += 5-i
-  }
-  console.log(pattern)
-}
+// for(let i= 0;i<5;i++){
+//   let pattern = "";
+//   for(let j= 0; j<i+1;j++){
+//     pattern += 5-i
+//   }
+//   console.log(pattern)
+// }
+
+
 
 

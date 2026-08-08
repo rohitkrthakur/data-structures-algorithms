@@ -1,0 +1,21 @@
+
+// A
+// BC
+// DEF
+// GHIJ
+
+
+
+
+let charCode = 65;
+
+for (let i = 0; i < 4; i++) {
+    let pattern = "";
+
+    for (let j = 0; j < i + 1; j++) {
+        pattern += String.fromCharCode(charCode);
+        charCode++;
+    }
+
+    console.log(pattern);
+}
